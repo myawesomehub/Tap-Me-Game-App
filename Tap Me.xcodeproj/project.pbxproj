@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		747A6ED123139A1B001DE679 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747A6ED023139A1B001DE679 /* AppDelegate.swift */; };
+		747A6ED323139A1B001DE679 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747A6ED223139A1B001DE679 /* ViewController.swift */; };
+		747A6ED623139A1B001DE679 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 747A6ED423139A1B001DE679 /* Main.storyboard */; };
+		747A6ED823139A1D001DE679 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 747A6ED723139A1D001DE679 /* Assets.xcassets */; };
+		747A6EDB23139A1D001DE679 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 747A6ED923139A1D001DE679 /* LaunchScreen.storyboard */; };
+		747A6EF02313A002001DE679 /* warpriestital.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 747A6EE42313A000001DE679 /* warpriestital.ttf */; };
+		747A6EF12313A002001DE679 /* warpriest.txt in Resources */ = {isa = PBXBuildFile; fileRef = 747A6EE52313A000001DE679 /* warpriest.txt */; };
+		747A6EF22313A002001DE679 /* warpriestleft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 747A6EE62313A000001DE679 /* warpriestleft.ttf */; };
+		747A6EF32313A002001DE679 /* warpriest3d.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 747A6EE72313A000001DE679 /* warpriest3d.ttf */; };
+		747A6EF42313A002001DE679 /* warpriestrotaterotal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 747A6EE82313A000001DE679 /* warpriestrotaterotal.ttf */; };
+		747A6EF52313A002001DE679 /* warpriestexpand.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 747A6EE92313A001001DE679 /* warpriestexpand.ttf */; };
+		747A6EF62313A002001DE679 /* warpriest.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 747A6EEA2313A001001DE679 /* warpriest.ttf */; };
+		747A6EF72313A002001DE679 /* warpriestcondital.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 747A6EEB2313A001001DE679 /* warpriestcondital.ttf */; };
+		747A6EF82313A002001DE679 /* warpriestrotate.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 747A6EEC2313A001001DE679 /* warpriestrotate.ttf */; };
+		747A6EF92313A002001DE679 /* warpriest3dital.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 747A6EED2313A001001DE679 /* warpriest3dital.ttf */; };
+		747A6EFA2313A002001DE679 /* warpriestcond.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 747A6EEE2313A002001DE679 /* warpriestcond.ttf */; };
+		747A6EFB2313A002001DE679 /* warpriestexpandital.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 747A6EEF2313A002001DE679 /* warpriestexpandital.ttf */; };
+		747A6F002313C1BF001DE679 /* gamingpageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747A6EFF2313C1BF001DE679 /* gamingpageViewController.swift */; };
+		74E1BA982316228E00CD47E7 /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E1BA972316228E00CD47E7 /* Detail.swift */; };
+		74E1BAA023163C6200CD47E7 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E1BA9F23163C6200CD47E7 /* TableViewController.swift */; };
+		74E1BAA223163C6F00CD47E7 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E1BAA123163C6F00CD47E7 /* TableViewCell.swift */; };
+		7A9D54E30DA7E40DC577F74B /* Pods_Tap_Me.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 451A7914B8A9F0F7D545011A /* Pods_Tap_Me.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		451A7914B8A9F0F7D545011A /* Pods_Tap_Me.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tap_Me.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		673B6679AED2EE2D61392D47 /* Pods-Tap Me.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tap Me.debug.xcconfig"; path = "Target Support Files/Pods-Tap Me/Pods-Tap Me.debug.xcconfig"; sourceTree = "<group>"; };
+		747A6ECD23139A1B001DE679 /* Tap Me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tap Me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		747A6ED023139A1B001DE679 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		747A6ED223139A1B001DE679 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		747A6ED523139A1B001DE679 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		747A6ED723139A1D001DE679 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		747A6EDA23139A1D001DE679 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		747A6EDC23139A1D001DE679 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		747A6EE42313A000001DE679 /* warpriestital.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = warpriestital.ttf; sourceTree = "<group>"; };
+		747A6EE52313A000001DE679 /* warpriest.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = warpriest.txt; sourceTree = "<group>"; };
+		747A6EE62313A000001DE679 /* warpriestleft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = warpriestleft.ttf; sourceTree = "<group>"; };
+		747A6EE72313A000001DE679 /* warpriest3d.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = warpriest3d.ttf; sourceTree = "<group>"; };
+		747A6EE82313A000001DE679 /* warpriestrotaterotal.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = warpriestrotaterotal.ttf; sourceTree = "<group>"; };
+		747A6EE92313A001001DE679 /* warpriestexpand.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = warpriestexpand.ttf; sourceTree = "<group>"; };
+		747A6EEA2313A001001DE679 /* warpriest.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = warpriest.ttf; sourceTree = "<group>"; };
+		747A6EEB2313A001001DE679 /* warpriestcondital.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = warpriestcondital.ttf; sourceTree = "<group>"; };
+		747A6EEC2313A001001DE679 /* warpriestrotate.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = warpriestrotate.ttf; sourceTree = "<group>"; };
+		747A6EED2313A001001DE679 /* warpriest3dital.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = warpriest3dital.ttf; sourceTree = "<group>"; };
+		747A6EEE2313A002001DE679 /* warpriestcond.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = warpriestcond.ttf; sourceTree = "<group>"; };
+		747A6EEF2313A002001DE679 /* warpriestexpandital.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = warpriestexpandital.ttf; sourceTree = "<group>"; };
+		747A6EFF2313C1BF001DE679 /* gamingpageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gamingpageViewController.swift; sourceTree = "<group>"; };
+		74E1BA972316228E00CD47E7 /* Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
+		74E1BA9F23163C6200CD47E7 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		74E1BAA123163C6F00CD47E7 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		87E39A3839246E2870E315FD /* Pods-Tap Me.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tap Me.release.xcconfig"; path = "Target Support Files/Pods-Tap Me/Pods-Tap Me.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		747A6ECA23139A1B001DE679 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A9D54E30DA7E40DC577F74B /* Pods_Tap_Me.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		747A6EC423139A1B001DE679 = {
+			isa = PBXGroup;
+			children = (
+				747A6ECF23139A1B001DE679 /* Tap Me */,
+				747A6ECE23139A1B001DE679 /* Products */,
+				747A6EEA2313A001001DE679 /* warpriest.ttf */,
+				747A6EE52313A000001DE679 /* warpriest.txt */,
+				747A6EE72313A000001DE679 /* warpriest3d.ttf */,
+				747A6EED2313A001001DE679 /* warpriest3dital.ttf */,
+				747A6EEE2313A002001DE679 /* warpriestcond.ttf */,
+				747A6EEB2313A001001DE679 /* warpriestcondital.ttf */,
+				747A6EE92313A001001DE679 /* warpriestexpand.ttf */,
+				747A6EEF2313A002001DE679 /* warpriestexpandital.ttf */,
+				747A6EE42313A000001DE679 /* warpriestital.ttf */,
+				747A6EE62313A000001DE679 /* warpriestleft.ttf */,
+				747A6EEC2313A001001DE679 /* warpriestrotate.ttf */,
+				747A6EE82313A000001DE679 /* warpriestrotaterotal.ttf */,
+				BE002455BA959AE3B19F7ABB /* Pods */,
+				F169A226EEF9E9A2038220C5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		747A6ECE23139A1B001DE679 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				747A6ECD23139A1B001DE679 /* Tap Me.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		747A6ECF23139A1B001DE679 /* Tap Me */ = {
+			isa = PBXGroup;
+			children = (
+				747A6ED023139A1B001DE679 /* AppDelegate.swift */,
+				747A6EDC23139A1D001DE679 /* Info.plist */,
+				747A6ED423139A1B001DE679 /* Main.storyboard */,
+				74E1BA9F23163C6200CD47E7 /* TableViewController.swift */,
+				74E1BAA123163C6F00CD47E7 /* TableViewCell.swift */,
+				747A6EFC2313A46A001DE679 /* Controllers */,
+				747A6EFD2313A489001DE679 /* Service */,
+			);
+			path = "Tap Me";
+			sourceTree = "<group>";
+		};
+		747A6EFC2313A46A001DE679 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				747A6EFF2313C1BF001DE679 /* gamingpageViewController.swift */,
+				74E1BA972316228E00CD47E7 /* Detail.swift */,
+				747A6ED223139A1B001DE679 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		747A6EFD2313A489001DE679 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				747A6ED923139A1D001DE679 /* LaunchScreen.storyboard */,
+				747A6ED723139A1D001DE679 /* Assets.xcassets */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		BE002455BA959AE3B19F7ABB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				673B6679AED2EE2D61392D47 /* Pods-Tap Me.debug.xcconfig */,
+				87E39A3839246E2870E315FD /* Pods-Tap Me.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F169A226EEF9E9A2038220C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				451A7914B8A9F0F7D545011A /* Pods_Tap_Me.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		747A6ECC23139A1B001DE679 /* Tap Me */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 747A6EDF23139A1D001DE679 /* Build configuration list for PBXNativeTarget "Tap Me" */;
+			buildPhases = (
+				9CC5AC2BCA1B6177A0608719 /* [CP] Check Pods Manifest.lock */,
+				747A6EC923139A1B001DE679 /* Sources */,
+				747A6ECA23139A1B001DE679 /* Frameworks */,
+				747A6ECB23139A1B001DE679 /* Resources */,
+				B8CC130DB00E2DC2889FCF41 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tap Me";
+			productName = "Tap Me";
+			productReference = 747A6ECD23139A1B001DE679 /* Tap Me.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		747A6EC523139A1B001DE679 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Mohammad Yasir";
+				TargetAttributes = {
+					747A6ECC23139A1B001DE679 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 747A6EC823139A1B001DE679 /* Build configuration list for PBXProject "Tap Me" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 747A6EC423139A1B001DE679;
+			productRefGroup = 747A6ECE23139A1B001DE679 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				747A6ECC23139A1B001DE679 /* Tap Me */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		747A6ECB23139A1B001DE679 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				747A6EF52313A002001DE679 /* warpriestexpand.ttf in Resources */,
+				747A6EF12313A002001DE679 /* warpriest.txt in Resources */,
+				747A6EDB23139A1D001DE679 /* LaunchScreen.storyboard in Resources */,
+				747A6EF32313A002001DE679 /* warpriest3d.ttf in Resources */,
+				747A6EF92313A002001DE679 /* warpriest3dital.ttf in Resources */,
+				747A6ED823139A1D001DE679 /* Assets.xcassets in Resources */,
+				747A6EF22313A002001DE679 /* warpriestleft.ttf in Resources */,
+				747A6EF62313A002001DE679 /* warpriest.ttf in Resources */,
+				747A6EF72313A002001DE679 /* warpriestcondital.ttf in Resources */,
+				747A6ED623139A1B001DE679 /* Main.storyboard in Resources */,
+				747A6EF42313A002001DE679 /* warpriestrotaterotal.ttf in Resources */,
+				747A6EF82313A002001DE679 /* warpriestrotate.ttf in Resources */,
+				747A6EF02313A002001DE679 /* warpriestital.ttf in Resources */,
+				747A6EFB2313A002001DE679 /* warpriestexpandital.ttf in Resources */,
+				747A6EFA2313A002001DE679 /* warpriestcond.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9CC5AC2BCA1B6177A0608719 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tap Me-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8CC130DB00E2DC2889FCF41 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tap Me/Pods-Tap Me-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tap Me/Pods-Tap Me-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tap Me/Pods-Tap Me-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		747A6EC923139A1B001DE679 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				747A6ED323139A1B001DE679 /* ViewController.swift in Sources */,
+				747A6F002313C1BF001DE679 /* gamingpageViewController.swift in Sources */,
+				74E1BA982316228E00CD47E7 /* Detail.swift in Sources */,
+				74E1BAA223163C6F00CD47E7 /* TableViewCell.swift in Sources */,
+				74E1BAA023163C6200CD47E7 /* TableViewController.swift in Sources */,
+				747A6ED123139A1B001DE679 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		747A6ED423139A1B001DE679 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				747A6ED523139A1B001DE679 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		747A6ED923139A1D001DE679 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				747A6EDA23139A1D001DE679 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		747A6EDD23139A1D001DE679 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		747A6EDE23139A1D001DE679 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		747A6EE023139A1D001DE679 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 673B6679AED2EE2D61392D47 /* Pods-Tap Me.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tap Me/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mdcode2021-gmail.com.Tap-Me";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		747A6EE123139A1D001DE679 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87E39A3839246E2870E315FD /* Pods-Tap Me.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tap Me/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mdcode2021-gmail.com.Tap-Me";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		747A6EC823139A1B001DE679 /* Build configuration list for PBXProject "Tap Me" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				747A6EDD23139A1D001DE679 /* Debug */,
+				747A6EDE23139A1D001DE679 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		747A6EDF23139A1D001DE679 /* Build configuration list for PBXNativeTarget "Tap Me" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				747A6EE023139A1D001DE679 /* Debug */,
+				747A6EE123139A1D001DE679 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 747A6EC523139A1B001DE679 /* Project object */;
+}
